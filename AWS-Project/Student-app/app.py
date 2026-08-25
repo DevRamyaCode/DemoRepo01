@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 def get_db_connection():
     return mysql.connector.connect(
-        host="YOUR-RDS-ENDPOINT",
+        host="student-db.c582isu0m6qe.ap-south-1.rds.amazonaws.com",
         user="admin",
-        password="YOUR-PASSWORD",
-        database="studentdb"
+        password="Adminuser4646",
+        database="student-db"
     )
 
 @app.route("/")
