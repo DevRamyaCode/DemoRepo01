@@ -20,7 +20,8 @@
         "ec2:DescribeVolumes",
         "ec2:DescribeSnapshots",
         "ec2:CreateVolume",
-        "ec2:CopySnapshot"
+        "ec2:CopySnapshot",
+        "ec2:CreateTags"
       ],
       "Resource": "*"
     }
